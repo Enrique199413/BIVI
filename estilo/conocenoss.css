@@ -1,0 +1,42 @@
+#contenido
+{
+	background:url(img/bgcon.png);
+}
+
+#mision
+{
+	width:860px;
+	*width:960px;
+	padding-top:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-align:justify;
+	margin:0px;
+}
+
+#vision
+{
+	width:860px;
+	*width:960px;
+	padding-top:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-align:justify;
+	margin:0px;
+}
+
+#obge
+{
+	width:860px;
+	*width:960px;
+	padding-top:20px;
+	padding-right:50px;
+	padding-left:50px;
+	text-align:justify;
+	margin:0px;
+}
+
+#ab
+{
+	margin:0px;
+}

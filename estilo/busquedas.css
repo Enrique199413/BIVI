@@ -1,0 +1,58 @@
+#contenido
+{
+	background:url(img/bgcon.png);
+	padding:20px 50px 0px 50px;
+	width:860px;
+}
+
+#resultados
+{
+	margin-top:20px;
+	width:860px;
+}
+
+.unres
+{
+	width:860px;
+	background:url(img/bgob.png);
+	border-top:1px solid white;
+	border-bottom:1px solid black;
+	color:black;
+}
+
+.unres:hover
+{
+	background:url(img/resart.png);
+	cursor:pointer;
+}
+
+.images
+{
+	width:90px;
+	height:90px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.info
+{
+	width:750px;
+	float:right;
+	padding:10px 0px 10px 0px;
+}
+
+.tit
+{
+	color:#6284ae;
+	text-shadow:1px 1px 0px black;
+	font-size:12pt;
+	margin-top:0px;
+}
+
+#nhr
+{
+	margin:auto;
+	text-align:center;
+}

@@ -1,0 +1,149 @@
+#contenido
+{
+	width:960px;
+	background:url(img/bgcon.png);
+}
+
+.thumbnail3
+{
+	width:270px;
+	margin-top:20px;
+}
+
+#imgr
+{
+	padding-left:50px;
+	width:270px;
+	float:left;
+}
+
+#informacion
+{
+	text-align:justify;
+	width:560px;
+	float:right;
+	margin-top:20px;
+	margin-right:50px;
+}
+
+.tit2
+{
+	color:#6284ae;
+	text-shadow:1px 1px 0px black;
+	font-size:12pt;
+	margin-top:0px;
+}
+
+.naranja
+{
+	color:#d37c00;
+	font-weight:bold;
+}
+.naranja a
+{
+	color:#d37c00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#ver
+{
+	width:100px;
+}
+
+#sombrat
+{
+	position:absolute;
+	background:url(img/sombratot.png);
+}
+
+#video
+{
+	margin-top:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align:center;
+	width:960px;
+	float:left;
+}
+
+#elemento
+{
+	width:860px;
+	padding-top:20px;
+	text-align:justify;
+	
+	margin:auto;
+}
+
+#comentario
+{
+	width:860px;
+	margin:auto;
+	margin-top:20px;
+	text-align:justify;
+}
+
+.unc
+{
+	width:820px;
+	*width:860px;
+	background:url(img/resart.png);
+	border-bottom:1px solid black;
+	border-top:1px solid white;
+	text-align:justify;
+	color:white;
+	padding:5px 20px 5px 20px;
+	text-shadow:1px 1px 3px black;
+}
+
+.uncn
+{
+	width:820px;
+	*width:860px;
+	background:url(img/resart.png);
+	border-bottom:1px solid black;
+	border-top:1px solid white;
+	text-align:center;
+	color:white;
+	padding:5px 20px 5px 20px;
+	text-shadow:1px 1px 3px black;
+}
+
+#comentar
+{
+	width:860px;
+	margin:auto;
+	margin-top:50px;
+}
+
+.enm
+{
+	text-align:center;
+}
+
+#tear
+{
+	width:300px;
+	max-width:860px;
+	height:100px;
+	margin-bottom:10px;
+}
+
+#preg
+{
+	margin-top:10px;
+}
+
+.fechach
+{
+	font-size:8pt;
+	text-align:right;
+}
+
+#errorc
+{
+	color:#ad0b0b;
+	text-shadow:0px 0px 2px black;
+	text-align:center;
+}

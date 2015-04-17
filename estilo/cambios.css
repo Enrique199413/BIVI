@@ -1,0 +1,97 @@
+#contenido
+{
+	background:url(img/fauxc2.png);
+}
+
+#sobrante
+{
+	background:url(img/fauxc2.png);
+}
+
+.rojo
+{
+	text-align:center;
+	width:400px;
+	margin:auto;
+	color:#ad0b0b;
+	text-shadow:1px 1px 1px black;
+	overflow:hidden;
+}
+
+.naranja
+{
+	text-align:center;
+	width:400px;
+	margin:auto;
+	color:#d37c00;
+	text-shadow:1px 1px 1px black;
+	overflow:hidden;
+}
+
+.instrucciones
+{
+	width:728px;
+}
+
+.respuesta
+{
+	width:728px;
+	text-align:center;
+}
+
+.unart
+{
+	border-top:1px solid white;
+	border-bottom:1px solid black;
+}
+
+.resaltar
+{
+	color:#6284ae;
+	text-shadow:1px 1px 0px black;
+	font-size:12pt;
+	margin-top:0px;
+}
+
+#tabladeart
+{
+	width:726px;
+	background:url(img/resart.png);
+	border-left:1px solid white;
+	border-right:1px solid black;
+}
+
+.contenidosalls
+{
+	margin:auto;
+}
+
+.tfor
+{
+	margin:auto;
+}
+
+.alider
+{
+	text-align:right;
+}
+
+.texta
+{
+	max-width:400px;
+}
+
+.texto
+{
+	width:300px;
+}
+
+.ast
+{
+	color:red;
+}
+
+.combo
+{
+	width:300px;
+}

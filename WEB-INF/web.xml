@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app
+	version="3.0"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<servlet>
+		<servlet-name>Contacto</servlet-name>
+		<servlet-class>Contacto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Contacto</servlet-name>
+		<url-pattern>/Contacto</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Desplegadoarticulo</servlet-name>
+		<servlet-class>Desplegadoarticulo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Desplegadoarticulo</servlet-name>
+		<url-pattern>/Desplegadoarticulo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Desplegadoarticulorevista</servlet-name>
+		<servlet-class>Desplegadoarticulorevista</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Desplegadoarticulorevista</servlet-name>
+		<url-pattern>/Desplegadoarticulorevista</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Desplegadoarticuloimagen</servlet-name>
+		<servlet-class>Desplegadoarticuloimagen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Desplegadoarticuloimagen</servlet-name>
+		<url-pattern>/Desplegadoarticuloimagen</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Desplegadoarticulovideo</servlet-name>
+		<servlet-class>Desplegadoarticulovideo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Desplegadoarticulovideo</servlet-name>
+		<url-pattern>/Desplegadoarticulovideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Altacomentario</servlet-name>
+		<servlet-class>Altacomentario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Altacomentario</servlet-name>
+		<url-pattern>/Altacomentario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaPregunta</servlet-name>
+		<servlet-class>AltaPregunta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaPregunta</servlet-name>
+		<url-pattern>/AltaPregunta</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Busqueda</servlet-name>
+		<servlet-class>Busqueda</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Busqueda</servlet-name>
+		<url-pattern>/Busqueda</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Busquedarev</servlet-name>
+		<servlet-class>Busquedarev</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Busquedarev</servlet-name>
+		<url-pattern>/Busquedarev</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Busquedaimg</servlet-name>
+		<servlet-class>Busquedaimg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Busquedaimg</servlet-name>
+		<url-pattern>/Busquedaimg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Busquedavid</servlet-name>
+		<servlet-class>Busquedavid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Busquedavid</servlet-name>
+		<url-pattern>/Busquedavid</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Busquedasimple</servlet-name>
+		<servlet-class>Busquedasimple</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Busquedasimple</servlet-name>
+		<url-pattern>/Busquedasimple</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaLibro</servlet-name>
+		<servlet-class>AltaLibro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaLibro</servlet-name>
+		<url-pattern>/AltaLibro</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Crop</servlet-name>
+		<servlet-class>Crop</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Crop</servlet-name>
+		<url-pattern>/Crop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaRevista</servlet-name>
+		<servlet-class>AltaRevista</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaRevista</servlet-name>
+		<url-pattern>/AltaRevista</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaImagen</servlet-name>
+		<servlet-class>AltaImagen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaImagen</servlet-name>
+		<url-pattern>/AltaImagen</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaVideo</servlet-name>
+		<servlet-class>AltaVideo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaVideo</servlet-name>
+		<url-pattern>/AltaVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaIdioma</servlet-name>
+		<servlet-class>AltaIdioma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaIdioma</servlet-name>
+		<url-pattern>/AltaIdioma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaFormato</servlet-name>
+		<servlet-class>AltaFormato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaFormato</servlet-name>
+		<url-pattern>/AltaFormato</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaPrograma</servlet-name>
+		<servlet-class>AltaPrograma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaPrograma</servlet-name>
+		<url-pattern>/AltaPrograma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaPublicador</servlet-name>
+		<servlet-class>AltaPublicador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaPublicador</servlet-name>
+		<url-pattern>/AltaPublicador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaFormatoImg</servlet-name>
+		<servlet-class>AltaFormatoImg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaFormatoImg</servlet-name>
+		<url-pattern>/AltaFormatoImg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaFormatoVid</servlet-name>
+		<servlet-class>AltaFormatoVid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaFormatoVid</servlet-name>
+		<url-pattern>/AltaFormatoVid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaEditorial</servlet-name>
+		<servlet-class>AltaEditorial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaEditorial</servlet-name>
+		<url-pattern>/AltaEditorial</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaTomo</servlet-name>
+		<servlet-class>AltaTomo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaTomo</servlet-name>
+		<url-pattern>/AltaTomo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AltaEdicion</servlet-name>
+		<servlet-class>AltaEdicion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AltaEdicion</servlet-name>
+		<url-pattern>/AltaEdicion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CargarArticulo</servlet-name>
+		<servlet-class>CargarArticulo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargarArticulo</servlet-name>
+		<url-pattern>/CargarArticulo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarArticulo</servlet-name>
+		<servlet-class>BorrarArticulo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarArticulo</servlet-name>
+		<url-pattern>/BorrarArticulo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarIdioma</servlet-name>
+		<servlet-class>BorrarIdioma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarIdioma</servlet-name>
+		<url-pattern>/BorrarIdioma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarFormato</servlet-name>
+		<servlet-class>BorrarFormato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarFormato</servlet-name>
+		<url-pattern>/BorrarFormato</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarPrograma</servlet-name>
+		<servlet-class>BorrarPrograma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarPrograma</servlet-name>
+		<url-pattern>/BorrarPrograma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarPublicador</servlet-name>
+		<servlet-class>BorrarPublicador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarPublicador</servlet-name>
+		<url-pattern>/BorrarPublicador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarFormatoImg</servlet-name>
+		<servlet-class>BorrarFormatoImg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarFormatoImg</servlet-name>
+		<url-pattern>/BorrarFormatoImg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarFormatoVid</servlet-name>
+		<servlet-class>BorrarFormatoVid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarFormatoVid</servlet-name>
+		<url-pattern>/BorrarFormatoVid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarEditorial</servlet-name>
+		<servlet-class>BorrarEditorial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarEditorial</servlet-name>
+		<url-pattern>/BorrarEditorial</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarTomo</servlet-name>
+		<servlet-class>BorrarTomo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarTomo</servlet-name>
+		<url-pattern>/BorrarTomo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarEdicion</servlet-name>
+		<servlet-class>BorrarEdicion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarEdicion</servlet-name>
+		<url-pattern>/BorrarEdicion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CargarArticuloCambio</servlet-name>
+		<servlet-class>CargarArticuloCambio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargarArticuloCambio</servlet-name>
+		<url-pattern>/CargarArticuloCambio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarArticulo</servlet-name>
+		<servlet-class>CambiarArticulo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarArticulo</servlet-name>
+		<url-pattern>/CambiarArticulo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambioLibro</servlet-name>
+		<servlet-class>CambioLibro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambioLibro</servlet-name>
+		<url-pattern>/CambioLibro</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambioRevista</servlet-name>
+		<servlet-class>CambioRevista</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambioRevista</servlet-name>
+		<url-pattern>/CambioRevista</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CambioImagen</servlet-name>
+		<servlet-class>CambioImagen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambioImagen</servlet-name>
+		<url-pattern>/CambioImagen</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambioVideo</servlet-name>
+		<servlet-class>CambioVideo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambioVideo</servlet-name>
+		<url-pattern>/CambioVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosIdioma</servlet-name>
+		<servlet-class>DatosIdioma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosIdioma</servlet-name>
+		<url-pattern>/DatosIdioma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarIdioma</servlet-name>
+		<servlet-class>CambiarIdioma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarIdioma</servlet-name>
+		<url-pattern>/CambiarIdioma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosFormato</servlet-name>
+		<servlet-class>DatosFormato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosFormato</servlet-name>
+		<url-pattern>/DatosFormato</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarFormato</servlet-name>
+		<servlet-class>CambiarFormato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarFormato</servlet-name>
+		<url-pattern>/CambiarFormato</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosPrograma</servlet-name>
+		<servlet-class>DatosPrograma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosPrograma</servlet-name>
+		<url-pattern>/DatosPrograma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarPrograma</servlet-name>
+		<servlet-class>CambiarPrograma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarPrograma</servlet-name>
+		<url-pattern>/CambiarPrograma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosPublicador</servlet-name>
+		<servlet-class>DatosPublicador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosPublicador</servlet-name>
+		<url-pattern>/DatosPublicador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarPublicador</servlet-name>
+		<servlet-class>CambiarPublicador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarPublicador</servlet-name>
+		<url-pattern>/CambiarPublicador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosFormatoImg</servlet-name>
+		<servlet-class>DatosFormatoImg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosFormatoImg</servlet-name>
+		<url-pattern>/DatosFormatoImg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarFormatoImg</servlet-name>
+		<servlet-class>CambiarFormatoImg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarFormatoImg</servlet-name>
+		<url-pattern>/CambiarFormatoImg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosFormatoVid</servlet-name>
+		<servlet-class>DatosFormatoVid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosFormatoVid</servlet-name>
+		<url-pattern>/DatosFormatoVid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarFormatoVid</servlet-name>
+		<servlet-class>CambiarFormatoVid</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarFormatoVid</servlet-name>
+		<url-pattern>/CambiarFormatoVid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosEditorial</servlet-name>
+		<servlet-class>DatosEditorial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosEditorial</servlet-name>
+		<url-pattern>/DatosEditorial</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarEditorial</servlet-name>
+		<servlet-class>CambiarEditorial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarEditorial</servlet-name>
+		<url-pattern>/CambiarEditorial</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosTomo</servlet-name>
+		<servlet-class>DatosTomo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosTomo</servlet-name>
+		<url-pattern>/DatosTomo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarTomo</servlet-name>
+		<servlet-class>CambiarTomo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarTomo</servlet-name>
+		<url-pattern>/CambiarTomo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosEdicion</servlet-name>
+		<servlet-class>DatosEdicion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosEdicion</servlet-name>
+		<url-pattern>/DatosEdicion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CambiarEdicion</servlet-name>
+		<servlet-class>CambiarEdicion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambiarEdicion</servlet-name>
+		<url-pattern>/CambiarEdicion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+</web-app>

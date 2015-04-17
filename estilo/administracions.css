@@ -1,0 +1,84 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	font-family:sans-serif;
+	background:url(img/adminbg.png);
+}
+
+#dcentral
+{
+	width:480px;
+	height:180px;
+	*width:500px;
+	*height:200px;
+	margin:auto;
+	background:#c7c7c7;
+	text-align:justify;
+	padding:10px;
+}
+
+#somcentral
+{
+	width:500px;
+	height:200px;
+	padding:10px;
+	margin:auto;
+	background:url(img/sombracent.png);
+}
+
+.derecha
+{
+	text-align:right;
+}
+
+.centr
+{
+	text-align:center;
+}
+
+.boton
+{
+	width:70px;
+	height:25px;
+	background:url(img/backbot.png);
+	color:white;
+	cursor:pointer;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid gray;
+	border-right:1px solid gray;
+}
+
+#tabla
+{
+	margin:auto;
+}
+
+#respuesta
+{
+	width:480px;
+	height:40px;
+	text-align:center;
+}
+
+#reccon
+{
+	width:480px;
+	height:40px;
+}
+
+#reccon td
+{
+	text-align:center;
+}
+
+.rojo
+{
+	color:red;
+	text-shadow:1px 1px 1px black;
+}

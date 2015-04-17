@@ -1,0 +1,224 @@
+body
+{
+	margin:0px;
+	font-family:sans-serif;
+	background:url(img/bg.png);
+	font-family:sans-serif;
+}
+
+a
+{
+	cursor:pointer;
+	text-decoration:none;
+}
+
+h1
+{
+	color:#6284ae;
+	font-size:16pt;
+	text-shadow:1px 1px 0px black;
+	margin:0px;
+}
+
+form
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+#header
+{
+	width:960px;
+	height:30px;
+	padding-top:20px;
+	margin:auto;
+}
+
+#ligas
+{
+	font-size:9pt;
+	height:5px;
+	color:#38557b;
+	text-shadow:1px 1px 0px white;
+	*margin:0px;
+}
+
+#ligas li
+{
+	float:right;
+	list-style:none;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.barrad
+{
+	border-right:1px solid black;
+}
+
+a.links
+{
+	color:#365479;
+}
+
+a.links:hover
+{
+	color:#0072ff;
+}
+
+#som1
+{
+	margin:auto;
+	width:990px;
+	height:120px;
+	background:url(img/somhe.png);
+}
+
+#cabeza
+{
+	width:940px;
+	*width:960px;
+	height:100px;
+	margin:auto;
+	background:url(img/bgti.png);
+	padding:10px 0px 10px 20px;
+}
+
+#som2
+{
+	margin:auto;
+	width:990px;
+	background:url(img/sommi.png);
+}
+
+#menu
+{
+	width:960px;
+	height:40px;
+	background:url(img/menu.png);
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	margin:auto;
+}
+
+#cmenu
+{
+	margin:auto;
+	width:500px;
+	height:40px;
+	*width:503px;
+}
+
+.elemenu
+{
+	width:100px;
+	height:28px;
+	padding-top:12px;
+	*height:40px;
+	float:left;
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 1px black;
+}
+
+.elemenu:hover
+{
+	background-image:url(img/eleselect.png);
+	color:#d2d2d2;
+	text-shadow:1px 1px 0px black;
+}
+
+#seleccionado
+{
+	background:url(img/bgselect.png);
+	font-weight:bold;
+	color:white;
+	text-shadow:0px 0px 5px black;
+}
+
+#contenido
+{
+	width:960px;
+	margin:auto;
+}
+
+#som3
+{
+	margin:auto;
+	width:990px;
+	height:130;
+	background:url(img/somfo.png);
+}
+
+#footer
+{
+	width:960px;
+	height:100px;
+	background:url(img/piebg.png);
+	margin:auto;
+}
+
+#sobrante
+{
+	width:960px;
+	height:48px;
+	*height:40px;
+}
+
+#division
+{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	width:960px;
+	height:10px;
+	background:url(img/bpie.png);
+}
+
+#let
+{
+	text-align:right;
+	width:940px;
+	*width:960px;
+	height:40px;
+	padding-right:20px;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	
+}
+
+.texto
+{
+	height:20px;
+	background:#88a8d9;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid #00377c;
+	border-right:1px solid #00377c;
+}
+
+.texta
+{
+	background:#88a8d9;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid #00377c;
+	border-right:1px solid #00377c;
+}
+
+.boton
+{
+	height:20px;
+	background:#123b66;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	color:white;
+	cursor:pointer;
+}
+
+.corte
+{
+	clear:both;
+}

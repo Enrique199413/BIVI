@@ -1,0 +1,47 @@
+body
+{
+	font-family:sans-serif;
+	font-size:12pt;
+	background:url(img/bgiframe.png);
+	overflow:hidden;
+}
+
+#resultadodf
+{
+	width:400px;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+.rojo
+{
+	text-align:center;
+	width:400px;
+	margin:auto;
+	color:#ad0b0b;
+	text-shadow:1px 1px 1px black;
+	overflow:hidden;
+}
+
+.naranja
+{
+	text-align:center;
+	width:400px;
+	margin:auto;
+	color:#d37c00;
+	text-shadow:1px 1px 1px black;
+	overflow:hidden;
+}
+
+.boton
+{
+	height:20px;
+	background:#123b66;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	color:white;
+	cursor:pointer;
+}

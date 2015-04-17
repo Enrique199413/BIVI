@@ -1,0 +1,330 @@
+#contenido
+{
+	background:url(img/fauxc.png);
+}
+
+#izquierdo
+{
+	float:left;
+	width:540px;
+	*width:640px;
+	padding:20px 50px 20px 50px;
+	text-align:justify;
+}
+
+#derecho
+{
+	padding-top:20px;
+	width:320px;
+	float:right;
+	text-align:center;
+	margin-top:0px;
+}
+
+#sobrante
+{
+	background:url(img/fauxc.png);
+}
+
+.t10
+{
+	text-align:center;
+	width:320px;
+	color:white;
+	font-size:14pt;
+	float:left;
+}
+
+#elementos
+{
+	width:320px;
+	margin:auto;
+	overflow:auto;
+	float:left;
+}
+
+.unele
+{
+	width:319px;
+	border-bottom:1px solid #003067;
+	border-top:1px solid white;
+	border-right:1px solid black;
+	color:black;
+	float:left;
+}
+
+.unele:hover
+{
+	background:url(img/bghoverele.png);
+	cursor:pointer;
+}
+
+.imagenar
+{
+	float:left;
+	width:90px;
+	height:90px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	*margin-left:0px;
+	*margin-right:0px;
+	*margin-bottom:0px;
+}
+
+.datos
+{
+	float:left;
+	width:200px;
+	height:90px;
+	margin-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:left;
+	font-size:11pt;
+	*margin-left:0px;
+	*margin-right:0px;
+	*margin-bottom:0px;
+}
+
+.descripcion
+{
+	*width:299px;
+	float:left;
+	text-align:justify;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	*margin-bottom:0px;
+	*margin-left:0px;
+	*margin-right:0px;
+}
+
+.tit
+{
+	color:white;
+	font-size:11pt;
+	text-shadow:1px 1px 0px black;
+	margin-top:0px;
+}
+
+.tit2
+{
+	color:#6284ae;
+	text-shadow:1px 1px 0px black;
+	font-size:12pt;
+	margin-top:0px;
+}
+
+#obras
+{
+	margin-top:20px;
+	width:550px;
+	border-top:1px solid white;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	float:left;
+}
+
+#paginacion
+{
+	width:550px;
+	height:20px;
+	float:left;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	background:url(img/bgalt.png);
+}
+
+.unobra
+{
+	width:540px;
+	*width:550px;
+	padding:10px 0px 10px 10px;
+	border-top:1px solid white;
+	border-bottom:1px solid black;
+	background:url(img/bgob.png);
+	float:left;
+	cursor:pointer;
+	color:black;
+}
+
+.unobra:hover
+{
+	background:url(img/resart.png);
+}
+
+.imgobmed
+{
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.infoob
+{
+	width:320px;
+	*width:330px;
+	padding-left:10px;
+	float:left;
+}
+
+.flechg
+{
+	margin:0px;
+	padding:0px;
+	width:36px;
+	height:20px;
+	border:0px;
+}
+
+.flechp
+{
+	margin:0px;
+	padding:0px;
+	width:19px;
+	height:20px;
+	border:0px;
+}
+
+#fiu
+{
+	margin-left:10px;
+	float:left;
+	background:url(img/flechif.png);
+}
+
+#fiue
+{
+	margin-left:20px;
+	float:left;
+	background:url(img/flechiu.png);
+}
+
+#fdu
+{
+	margin-right:10px;
+	float:right;
+	background:url(img/flechdf.png);
+}
+
+#fdue
+{
+	margin-right:20px;
+	float:right;
+	background:url(img/flechdu.png);
+}
+
+#numpag
+{
+	float:left;
+	width:360px;
+	*width:378px;
+	height:20px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+}
+
+#fiu:hover
+{
+	position:relative;
+	margin-left:9px;
+	margin-right:1px;
+	cursor:pointer;
+}
+
+#fiue:hover
+{
+	position:relative;
+	margin-left:19px;
+	margin-right:1px;
+	cursor:pointer;
+}
+
+#fdu:hover
+{
+	position:relative;
+	margin-right:9px;
+	margin-left:1px;
+	cursor:pointer;
+}
+
+#fdue:hover
+{
+	position:relative;
+	margin-right:19px;
+	cursor:pointer;
+}
+
+.nodepag
+{
+	color:white;
+	float:left;
+	width:36px;
+	*width:35px;
+	height:20px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	background:none;
+}
+
+.nodepag:hover
+{
+	height:19px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.selectpagnum
+{
+	background:#a3c9e8;
+	color:black;
+}
+
+#checks
+{
+	float:left;
+	margin-top:20px;
+	width:550px;
+}
+
+#tabch
+{
+	margin:auto;
+}
+
+#checks td
+{
+	padding:2px 0px 2px 0px;
+}
+
+.tder
+{
+	text-align:right;
+}
+
+.tatex
+{
+	width:300px;
+}
+
+.botex
+{
+	width:100px;
+}
+
+.thumbnail2
+{
+	width:200px;
+	height:200px;
+}
+
+.thumbnail
+{
+	width:90px;
+	height:90px;
+}
